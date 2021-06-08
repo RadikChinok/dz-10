@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //---------------------indexOf-------------------------------
+        // var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        // function indexOf (array, index) {
+        //     for (var i = 0; i < array.length; i++) {
+        //         if (array[i] === index) {
+        //             return i;
+        //         }
+        //     }
+        //     return -1;
+        // }
+        // console.log(indexOf(arr, 6))
+
+
+
+
+        //-------первый способ--------------lastIndexOf-------------------------------
+        // var arr = [1, 2, 1, 3, 1];
+        // function lastIndexOf (array, value) {
+        //     var result = [];
+        //     for (var i = 0; i < array.length; i++) {
+        //         if (array[i] === value) {
+        //             result.push(i);
+        //         }
+        //     }
+        //     if (result.length === 0) {
+        //         return -1;
+        //     } else{
+        //         return result[result.length - 1];
+        //     }
+            
+        // }
+        // console.log(lastIndexOf(arr, 1));
+
+//--------второй способ-------------lastIndexOf-------------------------------
+        // var arr = [1, 2, 1, 3, 1];
+        // function lastIndexOf (array, value) {
+        //     var result;
+        //     for (var i = 0; i < array.length; i++) {
+        //         if (array[i] === value) {
+        //             result = i;
+        //         }
+        //     }
+        //     if (result === undefined) {
+        //         return -1;
+        //     } else{
+        //         return result;
+        //     }
+
+        // }
+        // console.log(lastIndexOf(arr, 2));
+
+
+
+
+
+//---------------------find-------------------------------
+        // var arr = [1, 20, 1, 3, 1];
+
+        // function callback (number) {
+        //     if (number > 10) {
+        //         return number + ' Win';
+        //     }
+        // }
+
+        // function find (array, Function) {
+        //     for (var i = 0; i < array.length; i++) {
+        //         if (Function(array[i])) {
+        //             return array[i];
+        //         }
+        //     }
+        //     return undefined;
+        // }
+
+        // console.log(find(arr, callback));
+
+
+
+
+//---------------------findIndex-------------------------------
+        // var arr = [1, 2, 1, 33, 11];
+
+        // function callback (number) {
+        //     if (number > 10) {
+        //         return number + ' Win';
+        //     }
+        // }
+
+        // function find (array, Function) {
+        //     for (var i = 0; i < array.length; i++) {
+        //         if (Function(array[i])) {
+        //             return i;
+        //         }
+        //     }
+        //     return undefined;
+        // }
+
+        // console.log(find(arr, callback));
+
+
+
+//---------------------includes-------------------------------
+        // var arr = [1, 2, 3, 4, 5];
+
+        // function includes(array, value) {
+        //     for (var i = 0; i < array.length; i++) {
+        //         if (array[i] === value) {
+        //             return true;
+        //         }
+        //     }
+        //     return false;
+        // }
+
+        // console.log(includes(arr, 6));
+
+
+
+
+
+//---------------------every-------------------------------
+
+    // var arr = [11, 20, 12, 3, 11];
+
+    // function callback (number) {
+    //     if (number > 10) {
+    //         return number + ' Win';
+    //     }
+    // }
+
+    // function every (array, Function) {
+    //     for (var i = 0; i < array.length; i++) {
+    //         if (Function(array[i]) === undefined) {
+    //             return false;
+    //         }
+    //     }
+    //     return true;
+    // }
+
+    // console.log(every(arr, callback));  
+
+
+
+
+
+//---------------------some-------------------------------    
+
+// var arr = [1, 2, 3, 4, 11];
+
+//     function callback (number) {
+//         if (number > 10) {
+//             return number + ' Win';
+//         }
+//     }
+
+//     function every (array, Function) {
+//         for (var i = 0; i < array.length; i++) {
+//             if (Function(array[i])) {
+//                 return true;
+//             }
+//         }
+//         return false;
+//     }
+
+//     console.log(every(arr, callback));
+    </script>
+</body>
+</html>
